@@ -1,0 +1,12 @@
+# Derleme dosyalari (Bunlar yuklenmesin)
+*.exe
+*.o
+*.out
+*.dll
+
+# VS Code ayarlari
+.vscode/
+
+# Gereksiz sistem dosyalari
+Thumbs.db
+.DS_Store
