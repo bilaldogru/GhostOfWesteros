@@ -45,6 +45,8 @@ Projeyi bilgisayarınızda çalıştırmak için bir C derleyicisine (GCC öneri
     ```bash
     gcc src/*.c -I include -o GhostOfWesteros
     ```
+    # Alternatif (Tüm dosyaları derlemek için)
+    gcc src/main.c src/game_logic.c src/utils.c -I include -o GhostOfWesteros
 
 3.  **Çalıştırma (Run):**
     * **Windows:** `GhostOfWesteros.exe`
